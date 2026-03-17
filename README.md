@@ -1,5 +1,4 @@
-# 🚀 Inventory Management System — Full Copy-Paste Plan
-
+# 🚀 Inventory Management System
 ---
 
 ## 🧠 Core Idea
@@ -456,16 +455,3 @@ Database:
 6. Build dashboard
 
 ---
-
-## 💡 Vibe Coding Workflow
-
-* Ask AI for:
-
-  * components
-  * API routes
-  * UI improvements
-* Copy → tweak → test → repeat
-
----
-
-END 🚀
