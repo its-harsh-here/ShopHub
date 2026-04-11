@@ -30,7 +30,7 @@ A modern, full-stack inventory management application built with **Next.js**, **
 
 ## 🛠️ Tech Stack
 
-### Frontend (backend/)
+### Frontend (inventory-app/)
 - **Next.js 14.2** - React framework with file-based routing
 - **React 18.3** - UI library
 - **Tailwind CSS 3.4** - Utility-first CSS framework
@@ -65,7 +65,7 @@ ShopHub/
 │   ├── package.json             # Backend dependencies
 │   └── .gitignore               # Git ignore file
 │
-├── backend/
+├── inventory-app/
 │   ├── app/
 │   │   ├── dashboard/
 │   │   │   └── page.js          # Admin dashboard page
@@ -117,10 +117,10 @@ npm install
 
 ### 3. Frontend Setup
 
-Navigate to backend directory and install dependencies:
+Navigate to inventory-app directory and install dependencies:
 
 ```bash
-cd ../backend
+cd ../inventory-app
 npm install
 ```
 
@@ -148,7 +148,7 @@ PORT=5000
 
 ### Frontend Environment Variables (Optional)
 
-Create a `.env.local` file in the `backend/` directory:
+Create a `.env.local` file in the `inventory-app/` directory:
 
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
@@ -175,7 +175,7 @@ Server running on port 5000
 In a new terminal, navigate to the frontend directory:
 
 ```bash
-cd backend
+cd inventory-app
 npm run dev
 ```
 
